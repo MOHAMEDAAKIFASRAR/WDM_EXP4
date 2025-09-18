@@ -22,10 +22,10 @@ df
 ```
 #### Output:
 <img width="872" height="763" alt="image" src="https://github.com/user-attachments/assets/0c9418e6-5a24-4200-849f-425378650517" />
-`````
-cluster = {'Young': df['Age'] <= 30,'Middle-aged': (df['Age'] > 30) & (df['Age'] <= 50),'Elderly': df['Age'] > 50}
-print(cluster)
-`````
+<pre> ``` cluster = { 'Young': df['Age'] <= 30,
+  'Middle-aged': (df['Age'] > 30) & (df['Age'] <= 50),
+    'Elderly': df['Age'] > 50 } print(cluster)
+    ``` </pre>
 
 #### Output:
 <img width="904" height="794" alt="image" src="https://github.com/user-attachments/assets/9379e73a-04d3-4467-84ef-e9fb4fd5cb6c" />

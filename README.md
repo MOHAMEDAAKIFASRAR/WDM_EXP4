@@ -23,8 +23,7 @@ df
 #### Output:
 <img width="872" height="763" alt="image" src="https://github.com/user-attachments/assets/0c9418e6-5a24-4200-849f-425378650517" />
 ```
-cluster = {
-    'Young': df['Age'] <= 30,
+cluster = {'Young': df['Age'] <= 30,
     'Middle-aged': (df['Age'] > 30) & (df['Age'] <= 50),
     'Elderly': df['Age'] > 50
 }

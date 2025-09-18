@@ -30,6 +30,7 @@ cluster = {
 }
 cluster
 ```
+
 #### Output:
 <img width="904" height="794" alt="image" src="https://github.com/user-attachments/assets/9379e73a-04d3-4467-84ef-e9fb4fd5cb6c" />
 
